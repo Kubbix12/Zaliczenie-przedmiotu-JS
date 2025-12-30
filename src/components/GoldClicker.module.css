@@ -1,0 +1,72 @@
+.goldClicker {
+    color: var(--button-bg);
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.stats {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+.stats p {
+    color: var(--button-bg);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: color 0.3s;
+}
+
+.stats svg {
+    color: var(--button-bg);
+    width: 1.4em;
+    height: 1.4em;
+    margin-right: 0.5em;
+    transition: color 0.3s;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1em;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    border: none;
+    padding: 0.6em 1.2em;
+    margin-bottom: 0.6em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: var(--button-hover);
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+button svg {
+    width: 1.4em;
+    height: 1.4em;
+    margin-right: 0.5em;
+}
+
+@media (min-width: 1024px) {
+    .goldClicker {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .goldClicker {
+        font-size: 18px;
+    }
+}

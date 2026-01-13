@@ -1,4 +1,4 @@
-import { motion, AnimatePresence } from 'framer-motion'
+import { AnimatePresence } from 'framer-motion'
 import merge from 'lodash.merge'
 import * as animations from './../utils/animations.jsx';
 
